@@ -42,6 +42,11 @@ header {
     border-radius: 10px;
 }
 
+.header-p:hover {
+    color: white;
+    transition: color 2.0s ease;
+}
+
 .header-a {
     font-weight: 800;
     margin-right: 5%;
@@ -51,8 +56,12 @@ header {
 
 .header-a:hover {
     color: grey;
-    transition: background-color 0.2s ease;
     transition: color 0.5s ease;
+}
+
+.header-a:active {
+    color: white;
+    transition: color 0s ease;
 }
 
 .header-button {
@@ -73,9 +82,19 @@ header {
     transition: color 0.5s ease;
 }
 
+.header-button:active {
+    color: white;
+    transition: color 0s ease;
+}
+
 main {
     margin-top: 4%;
     text-align: center;
+}
+
+main:hover {
+    color: rgb(255, 255, 255);
+    transition: color 2.0s ease;
 }
 
 h1 {
